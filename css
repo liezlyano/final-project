@@ -1,0 +1,20 @@
+/*-------- All CSS Style ---------*/
+
+* {
+    max-width: 1200px;
+    font-family: 'Open Sans';
+
+/*-------- Media Screen ---------*/
+
+}
+@media screen and (min-width: 760px) {
+    * {
+        background-color: #c78c06;
+      }
+    .contact .info {
+        grid-area: span;
+    }
+    .team {
+        display: flex;
+    }
+}
